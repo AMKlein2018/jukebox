@@ -40,11 +40,14 @@ var random = document.getElementById('random')
 
 // var songs = new Audio(["YellowLedbetter.mp3", "EvenFlow.mp3", "Black.mp3", "BetterMan.mp3", "Alive.mp3"]) 
 
-var song1 = new Audio("YellowLedbetter.mp3")
+var song1 = new Audio("Alive.mp3")
 var song2 = new Audio("EvenFlow.mp3")
 var song3 = new Audio("Black.mp3")
 var song4 = new Audio("BetterMan.mp3")
-var song5 = new Audio("Alive.mp3")
+var song5 = new Audio("YellowLedbetter.mp3")
+
+
+
 var currentSong = 0
 
 
@@ -61,6 +64,7 @@ class JukeBox {
 			}
 
 			pauseMusic () {
+
 				this.songs[currentSong].pause()
 
 			}
@@ -99,6 +103,13 @@ class JukeBox {
 			}
 
 			randomSong() {
+				this.songs[currentSong].pause()
+				this.songs[currentSong].currentTime = 0
+
+				
+				currentSong = Math.floor(Math.random() * this.songs.length) 
+						this.songs[currentSong].play()
+					
 
 			}
 

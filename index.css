@@ -6,9 +6,9 @@
 	background-color: lightblue;
 	width: 75%;
 	height: 100px;
-	margin-left: 175px;
+	margin-left: 206px;
 	border: 2px solid blue;
-
+	
 }
 
 .wrapper {
@@ -30,8 +30,8 @@
 
 #Play {
 
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 	background-color: lightblue;
 	border: 3px solid black;
 	font-size: 30px;
@@ -41,8 +41,8 @@
 
 #Stop {
 
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 	background-color: lightblue;
 	border: 3px solid black;
 	font-size: 30px;
@@ -52,8 +52,8 @@
 
 #Pause {
 
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 	background-color: lightblue;
 	border: 3px solid black;
 	font-size: 30px;
@@ -63,8 +63,8 @@
 
 #Previous {
 
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 	background-color: lightblue;
 	border: 3px solid black;
 	font-size: 30px;
@@ -74,8 +74,19 @@
 
 #Next {
 
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
+	background-color: lightblue;
+	border: 3px solid black;
+	font-size: 30px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+#Random {
+
+	height: 150px;
+	width: 150px;
 	background-color: lightblue;
 	border: 3px solid black;
 	font-size: 30px;
