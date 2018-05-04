@@ -61,6 +61,7 @@ class JukeBox {
 			playMusic() {
 			
 				this.songs[currentSong].play()
+				
 			}
 
 			pauseMusic () {
